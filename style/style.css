@@ -1,0 +1,39 @@
+.inactive {
+  position: absolute;
+  left: -100000px;
+  opacity: 0;
+}
+
+.form-active {
+  left: 0;
+  opacity: 100;
+}
+
+.trans {
+  transition: all 0.5s;
+}
+
+.main-wrapper {
+  height: 100vh;
+}
+.main-wrapper .main-cotainer {
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 11px;
+}
+.main-wrapper .main-cotainer .qc-container {
+  margin-left: 20px;
+}
+.main-wrapper .main-cotainer .campus-container {
+  border-bottom: solid 1px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.main-wrapper .main-cotainer .placeholder-email {
+  margin-bottom: 10px;
+}
+.main-wrapper .main-cotainer .step-one-btn {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
